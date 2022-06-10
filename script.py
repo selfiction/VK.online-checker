@@ -33,7 +33,7 @@ def ref():
     f = open('info.txt', mode='a')
     f.write(f"Профиль: {profile_name}"+ "\n" + f"Статус профиля: {profile_status}" + "\n" + f"ID профиля: {profile_id}" + "\n" + f"Время проверки: {time_string}" + "\n" + "\n")
     f.close()
-    driver.quit()
+    driver.refresh()
 
 
 while True:
